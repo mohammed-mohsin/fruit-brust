@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind CSS & daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+
+                },
+                extend: {
+                    colors: {
+                        clifford: '',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Font  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome  -->
+
+    <script src="https://kit.fontawesome.com/a22af98e87.js" crossorigin="anonymous"></script>
+
+
+
+    <style>
+        .font-lato {
+
+            font-family: "Lato", sans-serif;
+
+
+        }
+    </style>
+
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <title>Fruit Brust</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="container mt-14 mb-14 w-11/12">
+
+            <div class="navbar bg-error text-white rounded-full justify-center ">
+                <div class="navbar-start hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1  ">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+
+
+                    </ul>
+
+                </div>
+                <div class="navbar-center ">
+                    <div class="flex">
+                        <img src="./images/logo.png" alt="Logo">
+                        <a class="btn btn-ghost text-4xl font-bold">Fruit Brust</a>
+                    </div>
+                </div>
+                <div class="navbar-end">
+
+                    <div class="drawer drawer-end">
+                        <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+                        <div class="drawer-content">
+                            <!-- Page content here -->
+                            <label for="my-drawer-4" class="drawer-button lg:hidden flex justify-end"> <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg></label>
+                        </div>
+                        <div class="drawer-side">
+                            <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
+                            <ul class="menu p-4 w-80 min-h-full bg-error text-white">
+                                <!-- Sidebar content here -->
+                                <li><a>Home</a></li>
+                                <li><a>About Us</a></li>
+                                <li><a>Shop</a></li>
+                                <li><a>All Fruits</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden   ">
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Main -->
+
+    <main>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
